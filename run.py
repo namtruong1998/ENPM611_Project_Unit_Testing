@@ -9,6 +9,7 @@ import argparse
 
 import config
 from example_analysis import ExampleAnalysis
+from issueProgression_analysis import IssueProgressionAnalysis
 from day_of_week_analysis import DayOfWeekAnalysis
 
 from wordCount_analysis import WordCountAnalysis
@@ -57,6 +58,6 @@ elif args.feature == 1:
 elif args.feature == 2:
     DayOfWeekAnalysis().run()
 elif args.feature == 3:
-    pass # TODO call third analysis
+    IssueProgressionAnalysis().run() # TODO call third analysis
 else:
     print('Need to specify which feature to run with --feature flag.')
