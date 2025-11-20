@@ -41,6 +41,21 @@ python run.py --feature 0
 
 That will output basic information about the issues to the command line.
 
+### Feature 1 Word Count and Completion Time Correlation
+
+This feature shows the correlation between the word count of an issue description vs how ling it took
+for the issue to be resolved.
+
+To run this feature:
+python run.py --feature 1
+
+The feature will ask you to enter a word count limit, this limit lets the user hone in on specific points of data
+and get rid of any outliers in the data
+
+The feature will then ask the user to enter a day limit, this limit lets the user limit the number of days it took to resolve an issue that is displays, this is to hone in and a span of time and get rid of outliers
+
+Just enter in the number you desire and press enter for each prompt, you will then be shown the data with your given limits
+
 
 ## VSCode run configuration
 

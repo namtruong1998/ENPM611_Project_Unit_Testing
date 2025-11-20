@@ -11,6 +11,7 @@ import config
 from example_analysis import ExampleAnalysis
 from day_of_week_analysis import DayOfWeekAnalysis
 
+from wordCount_analysis import WordCountAnalysis
 
 
 def parse_args():
@@ -52,7 +53,7 @@ print("DATA PATH:", config.get_parameter("data_path"))
 if args.feature == 0:
     ExampleAnalysis().run()
 elif args.feature == 1:
-    pass # TODO call first analysis
+    WordCountAnalysis().run()
 elif args.feature == 2:
     DayOfWeekAnalysis().run()
 elif args.feature == 3:
