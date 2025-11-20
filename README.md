@@ -56,7 +56,7 @@ python run.py --feature 1
 The feature will ask you to enter a word count limit, this limit lets the user hone in on specific points of data
 and get rid of any outliers in the data
 
-The feature will then ask the user to enter a day limit, this limit lets the user limit the number of days it took to resolve an issue that is displays, this is to hone in and a span of time and get rid of outliers
+The feature will then ask the user to enter a day limit, this limit lets the user limit the number of days it took to resolve an issue that is displays, this is to hone in on a span of time and get rid of outliers
 
 Just enter in the number you desire and press enter for each prompt, you will then be shown the data with your given limits
 
