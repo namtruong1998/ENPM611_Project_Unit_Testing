@@ -9,6 +9,7 @@ import argparse
 
 import config
 from example_analysis import ExampleAnalysis
+from wordCount_analysis import WordCountAnalysis
 
 
 def parse_args():
@@ -48,7 +49,7 @@ config.overwrite_from_args(args)
 if args.feature == 0:
     ExampleAnalysis().run()
 elif args.feature == 1:
-    pass # TODO call first analysis
+    WordCountAnalysis().run()
 elif args.feature == 2:
     pass # TODO call second analysis
 elif args.feature == 3:
