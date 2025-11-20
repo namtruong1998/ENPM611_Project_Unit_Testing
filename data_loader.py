@@ -17,7 +17,7 @@ class DataLoader:
         Constructor
         """
         # Correct key name from config.json
-        self.data_path: str = config.get_parameter('data_path')
+        self.data_path:str = config.get_parameter('ENPM611_PROJECT_DATA_PATH')
         print("DATA LOADER PATH:", self.data_path)
         
     def get_issues(self):
